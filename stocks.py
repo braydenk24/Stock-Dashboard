@@ -7,6 +7,9 @@ from stocknews import StockNews
 
 
 
+#selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())
+#page_names_to_funcs[selected_page]()
+
 
 st.title('Stock Display')
 st.text('This web app displays stock prices from companies in the S&P 500')
